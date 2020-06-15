@@ -6,7 +6,7 @@ public class DayOfTheWeek {
         switch (day) {
             case 0:
                 System.out.println("Sunday");
-                break;
+                break;                                                                      // break很重要， 不然会连后面一起打印
 
             case 1:
                 System.out.println("Monday");
